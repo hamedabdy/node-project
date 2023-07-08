@@ -1,0 +1,38 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "web app for business processes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hamedabdy/node-project.git"
+  },
+  "keywords": [
+    "nodejs",
+    "business",
+    "process",
+    "itsm",
+    "database",
+    "mariadb",
+    "relational",
+    "frontend",
+    "backend",
+    "crud",
+    "operations",
+    "ACL",
+    "rbac"
+  ],
+  "author": "hamedabdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamedabdy/node-project/issues"
+  },
+  "homepage": "https://github.com/hamedabdy/node-project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mariadb": "^3.2.0"
+  }
+}

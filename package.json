@@ -2,7 +2,7 @@
   "name": "node-project",
   "version": "1.0.0",
   "description": "web app for business processes",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/hamedabdy/node-project/issues"
   },
-  "homepage": "https://github.com/hamedabdy/node-project#readme"
+  "homepage": "https://github.com/hamedabdy/node-project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mariadb": "^3.2.0"
+  }
 }
